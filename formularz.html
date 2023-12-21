@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formularz.css">
+    <link rel="Shortcut icon" href="foto/siedem.png">
+    <title>Formularz</title>
+</head>
+<body>
+    <form action="mailto:beniamin.usowski@tm1.edu.pl" method=post>
+   
+    <header>
+        <h1>Formularz</h1>
+    </header>
+    
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona Główna</a></li>
+            <li><a href="samsung.html">Samsung</a></li>           
+            <li><a href="apple.html">Apple</a></li>
+            <li><a href="xiaomi.html">Xiaomi</a></li>
+            <li><a href="huawei.html">Huawei</a></li>
+            <li><a href="google.html">Google Pixel</a></li>
+            <li><a href="realme.html">Realme</a></li>
+            <li><a href="oppo.html">Oppo</a></li>
+            <li><a href="formularz.html">Formularz</a></li>
+            <li><a href="linki.html">Linki</a></li>
+            <li><a href="multimedia.html">Galeria zdjęć</a></li>
+            
+        </ul>
+    </nav>
+  
+    
+
+
+<form>
+
+
+    <section>
+    <h2>Dane osobowe:</h2>
+
+    <label for=imie>Imię: </label>
+    <input type=text name=imie id=imie maxlength="15" size=5>
+        
+        <br>
+
+        <label for=nazwisko>Nazwisko: </label>
+    <input type=text name=imie id=nazwisko maxlength="15" size=5>
+
+    <br>
+
+    <label for=wiek>Wiek: </label>
+    <input type=number name=wiek id=wiek min=13 max=99 size=5>
+
+        <br>
+        <h3>Płeć:</h3>
+    
+    
+    <input type=radio name=plec id=mezczyzna value=mezczyzna>
+    <label for=mezczyzna>Mężczyzna</label>
+    
+    <input type=radio name=plec id=kobieta value=kobieta >
+    <label for=kobieta>Kobieta</label>
+    
+    </section>
+        
+    
+
+
+
+    <section>
+    <h2>Masz telefon?</h2>
+    
+    <input type=radio name=warszawa id=tak value=tak>
+    <label for=tak>Tak</label>
+    
+    <input type=radio name=warszawa id=nie value=nie >
+    <label for=nie>Nie</label>
+    
+
+        
+    
+        <h2>Jaki telefon posiadasz?</h2>
+    
+    <select name=dzielnica id=dzielnica>
+    
+        <option value=1>Samsung</option>
+        <option value=2>Apple</option>
+        <option value=3>Xiaomi</option>
+        <option value=4>Huawei</option>
+        <option value=5>Google Pixel</option>
+        <option value=6>Realme</option>
+        <option value=7>Oppo</option>
+        <option value=8>Inny</option>
+       
+        
+        
+    
+    </select>
+
+        <h2>Jak oceniasz swój telefon w skali od 1-10?</h2>
+    
+    <select multiple name=skala id=skala2 size=10>
+    
+        <option value=1>1</option>
+        <option value=2>2</option>
+        <option value=3>3</option>
+        <option value=4>4</option>
+        <option value=5>5</option>
+        <option value=6>6</option>
+        <option value=7>7</option>
+        <option value=8>8</option>
+        <option value=9>9</option>
+        <option value=10>10</option>
+    
+    </select>
+    </section>
+        
+        
+       
+       
+       
+       
+    <section>
+    <h2>Uwagi:</h2>
+    
+    <label for=uwagi></label>
+    <textarea name=uwagi id=uwagi maxlength="100" cols=30 rows=8>treść uwagi</textarea><br>
+    
+        
+    
+    <button type=buttton onClick="alert('Dziękujemy za wypełnienie formularza')">Sprawdź</button><br>
+    
+    <input type="reset" value="Wyczyść formularz"><br>
+    <input type="submit" value="Prześlij formularz"><br>
+
+    </section>
+
+</form>
+
+
+  <footer>
+    Beniamin Usowski 2tb
+    </footer>
+</body>
+</html>
