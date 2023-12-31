@@ -1,3 +1,7 @@
+form {
+  margin: 0 10px 10px 10px; /* góra | prawo | dół | lewo */
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
